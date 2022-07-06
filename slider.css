@@ -1,0 +1,543 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    overflow-y: hidden;
+    touch-action: none;
+    overscroll-behavior-y: contain;
+    background: #F7EEE5;
+}
+
+
+.baten {
+  background-color: #AD7650; /* Green */
+  border: none;
+  color: white;
+  margin: 25px;
+  padding: 15px 70px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  font-weight: 900;
+  border: none;
+  width: 40%;
+  font-family: 'Gentium Book Plus', serif;
+}
+
+
+h1 {
+    font-size: 35px;;
+    margin: 0; padding: 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    color: #634739;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0; padding: 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #634739;
+    
+
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #634739;
+    }
+    
+    
+    
+ h4 {
+ font-size: 18px;
+ margin: 20px; padding: 0;
+ text-align: center;
+ font-family: 'Gentium Book Plus', serif;
+ font-weight: 200;
+ color: #634739;
+  }
+ 
+ h5 {
+ font-size: 15px;
+ margin: 8px 0 0 0; padding: 0;
+ text-align: center;
+ -webkit-transition: 0.2s all;
+ transition: 0.2s all;
+ font-weight: 400;
+ font-family: 'Gentium Book Plus', serif;
+ color: #634739;
+ opacity: 0.9
+
+}
+
+p {
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s;
+    color: #634739;
+    opacity: 0.9
+}
+
+.date {
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 25px;
+    margin: 0 20px;
+    
+}
+
+hr.new1 {
+  border: 1px solid #AD7650;
+  width: 80px;
+  margin: 20px;
+}
+
+.hdate {
+    font-size: 25px;
+    margin: 40px 20px;
+    text-align: center;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+ }
+
+.hdate1 {
+    font-size: 25px;
+    margin: 0  20px;
+    text-align: center;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+ }
+ 
+ .hdate2 {
+ font-size: 25px;
+ margin: 20px 20px;
+ text-align: center;
+ -webkit-transition: 0.2s all;
+ transition: 0.2s all;
+ font-family: 'Playfair Display', serif;
+ font-weight: 700;
+ }
+ 
+
+
+
+.ki { 
+
+position:absolute;
+font-size: 60px;
+margin: 0; padding: 0;
+text-align: center;
+-webkit-transition: 0.2s all;
+transition: 0.2s all;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+color: #634739;
+  
+}
+
+blockquote {
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 1.2;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Gentium Book Plus', serif;
+  color: #634739;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+  font-family: 'Gentium Book Plus', serif;
+  color: #634739;
+  opacity: 0.9
+}
+blockquote:before {
+  content: '“';
+  left: 1rem;
+  top: -2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+blockquote:after {
+  content: '”';
+  right: 1rem;
+  bottom: -2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+cite {
+  line-height: 3;
+  text-align: left;
+  color: #634739;
+  opacity: 0.9
+}
+
+.block {
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.pr {
+  padding: 10px 5px;
+  text-align: center;
+  margin:30px;
+  font-size:20px;
+}
+
+.pr1 {
+  padding: 10px 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.ki1 { 
+position:absolute;
+font-size: 60px;
+margin-top: 5px; padding: 0;
+text-align: center;
+-webkit-transition: 0.2s all;
+transition: 0.2s all;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+color: #634739;
+
+  
+}
+
+.profile-small {
+   height:160px;
+}
+
+
+#wholepage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+section, .section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: translate(0, 0);
+    transition: transform 0.4s ease-out;
+    margin: 0; padding: 0;
+  
+}
+
+
+.page {
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    ransform: translate(0, 0);
+    transition: transform 0.4s ease-out;
+}
+
+.bounce {
+animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; 
+  }
+
+.page1 {
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 0);
+    transition: transform 0.4s ease-out;
+}
+
+
+.b {
+   background-image: url( '1.svg' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+}
+
+
+.begesatu {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begesatu.png?alt=media&token=23183df3-3150-4ece-bdb0-8288652c06b1' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 1s;
+}
+
+.begedua {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begedua.png?alt=media&token=1e43cb50-634e-4fb3-935e-eb0d23b7e026' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+}
+
+.begetiga {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begetiga.png?alt=media&token=ea673abd-efef-4a4c-85ba-f35034be103b' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+}
+
+.begeempat {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begeempat.png?alt=media&token=afe42274-ecec-401b-a065-6bb4ebf08bd1' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+}
+
+
+
+.begelima {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begelima.png?alt=media&token=05659086-8960-4928-9c51-dc12aea79d19' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+}
+
+.begeenam {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begeenam.png?alt=media&token=bc74a66e-73ab-4cdf-b595-54abd8391444' );
+   background-size: contain;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   background-size: cover;
+}
+
+
+.c {
+   background-image: url("2.svg");
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   -webkit-background-size: 100% 100%;
+   height: 480px; /* You must set a specified height */
+    /* Do not repeat the image */
+   background-size: cover;
+   position: fixed;
+   bottom: 20px;
+   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 1s;
+   }
+
+
+.bg {
+   background-image: url( 'https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/bgfuad.png?alt=media&token=462ddfe9-229f-49a3-b208-43a8152a1ccf' );
+   background-size: 100% 100%;
+   background-size: cover;
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 1s;
+  }
+  
+  
+ .footer {
+ position: fixed;
+ left: 0;
+ bottom: 20px;
+ width: 100%;
+ color: #634739;
+ text-align: center;
+ }
+ 
+ .clik {
+ color: #AD7650;
+ }
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.sectionButtonContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 3vw; 
+    color: rgb(30, 30, 30);
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+
+}
+
+.sectionButtonContainer label, .page_selection label {
+    display: inline-flex;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255, 0.8);
+    transition: transform 0.2s;
+    margin: 12px 12px;
+    padding: 0px;
+    box-shadow: 0px 0px 8px rgba(0, 27, 160, 0.8);
+    cursor: pointer;
+}
+
+.sectionButtonContainer label::after, .page_selection label::after {
+    content: '';
+    display: inline-flex;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    padding: 12px;
+}
+
+.sectionContainer input[type=radio]:checked + label::after, .page_selection input[type=radio]:checked + label::after {
+   display: none;
+}
+
+
+.sectionButtonContainer input[type=radio]:checked + label, .page_selection input[type=radio]:checked + label  {
+    transform: scale(2.2);
+    transition: transform 0.2s;
+}
+
+
+
+.page_selection {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 2vh;
+    left: 40%; 
+    color: rgb(30, 30, 30);
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+    z-index: 999999; 
+
+}
+
+.crossfade > figure {
+  animation: imageAnimation 30s linear infinite 0s;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.crossfade > figure:nth-child(1) {
+  background-image: url('imgelemen/1.png');
+}
+.crossfade > figure:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url('imgelemen/2.png');
+}
+.crossfade > figure:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url('imgelemen/bgfuad.png');
+}
+.crossfade > figure:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url('imgelemen/bgfuad.png');
+}
+.crossfade > figure:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url('imgelemen/bgfuad.png');
+}
+
+@keyframes imageAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;p
+    opacity: 1;
+  }
+  17% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
