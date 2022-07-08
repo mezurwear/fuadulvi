@@ -3,6 +3,10 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
+    user-select: none;
+    overflow-y: hidden;
+    touch-action: none;
+    overscroll-behavior-y: none;
     font-family: 'roboto';
 
 }
