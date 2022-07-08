@@ -1,0 +1,298 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'roboto';
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #F7EEE5;
+}
+
+
+
+.begesatu, .begedua, .begetiga, .begeempat, .begeenam {
+  position: relative;
+  height: 100%;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  bottom: 0;
+
+}
+
+.begesatu {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begesatu-min.png?alt=media&token=8d988c66-ce6a-44bb-b089-248b04902b2d");
+}
+
+.begedua {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begedua-min.png?alt=media&token=4cc3da18-d540-44d1-aca1-7448f74fcd3c");
+ height: 100%;
+ width: 100%;
+}
+
+.begetiga {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begetiga.png?alt=media&token=e188ebe2-85aa-4299-a41d-9964c09c69fa");
+ height: 60%;
+ width: 100%;
+}
+
+.begeempat {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begeempat-min.png?alt=media&token=3cad0b7c-8a33-4e4a-a7b5-d253afa0f02e");
+  height: 100%;
+  width: 100%;
+}
+
+.begelima {
+  background: #F0E1CE;
+  margin-top: 120%;
+  margin-bottom: 30px;
+  height: 54%;
+  width: 100%;
+  text-align: center;
+}
+
+.begeenam {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/zakiaundangan.appspot.com/o/begeempat-min.png?alt=media&token=3cad0b7c-8a33-4e4a-a7b5-d253afa0f02e");
+  height: 80%;
+  width: 100%;
+
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+
+h1 {
+    font-size: 35px;;
+    margin: 0; padding: 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #634739;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px 25px 0 25px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #634739;
+    
+
+}
+
+
+
+
+h3 {
+    font-size: 30px;
+    margin: 15px 25px 0 25px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #634739;
+    }
+    
+    
+    
+ h4 {
+ font-size: 18px;
+ margin: 15px 30px 15px 30px;
+ text-align: center;
+ font-family: 'Gentium Book Plus', serif;
+ font-weight: 200;
+ color: #634739;
+  }
+  
+  
+ 
+ h5 {
+ font-size: 15px;
+ margin: 8px 0 0 0; padding: 0;
+ text-align: center;
+ -webkit-transition: 0.2s all;
+ transition: 0.2s all;
+ font-weight: 400;
+ font-family: 'Gentium Book Plus', serif;
+ color: #634739;
+ opacity: 0.9
+
+}
+
+
+
+p {
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+    color: #634739;
+}
+
+
+.cincin {
+height: 80px;
+width: 80px;
+}
+
+
+
+
+.pr {
+  padding: 0;
+  text-align: center;
+  margin: 0 25px 0 25px;
+  font-size:20px;
+}
+
+
+
+.ki1 { 
+
+font-size: 60px;
+text-align: center;
+-webkit-transition: 0.2s all;
+transition: 0.2s all;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+color: #634739;
+
+  
+}
+
+.profile-small {
+   height:160px;
+}
+
+
+.stories {
+  display:block;
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+}
+
+
+.line {
+  border: 1px solid #AD7650;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+
+
+.batas {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+.blockquotes {
+  font-weight: 100;
+  font-size: 18px;
+  font-family: 'Gentium Book Plus', serif;
+  color: #634739;
+  padding:25px;
+  text-align: center;
+}
+
+
+.footer {
+ left: 0;
+ bottom: 10px;
+ width: 100%;
+ color: #634739;
+ text-align: center;
+ position:absolute;
+ }
+ 
+ 
+ .clik {
+ color: #AD7650;
+ font-weight: bold;
+ }
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+.begeslide {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+
+
+.mySlides {
+
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  margin: 80px 0 0 0;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
